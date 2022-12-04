@@ -1,0 +1,17 @@
+.col
+  float: left
+  text-align: center
+  background: #999
+  color: #fff
+  margin: $default_margin_px
+
+.col-no-space > .col
+  margin: 0 !important
+
+@for $i from 1 through 12
+  .col-#{$i}
+    float: left
+    width: calc(calc(100% / #{$i}) - calc($default_margin_px * 2))
+
+  .col-no-space > .col-#{$i}
+    width: calc(calc(100% / #{$i}))

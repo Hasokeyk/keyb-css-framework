@@ -1,0 +1,94 @@
+$font_family: Helvatica
+$danger_color: #ff0000
+$succes_color: #4fce01
+
+$margin_array: 10px, 15px, 20px, 25px, 30px
+$default_margin_px: 10px
+
+$default_border_color: #007fff
+$default_border_radius_px: 5px
+
+html
+  padding: 0
+  margin: 0
+  overflow: scroll
+
+body
+  padding: 0
+  margin: 0
+  font-family: $font_family
+
+.text-left
+  text-align: left
+
+.text-start
+  text-align: left
+
+.text-center
+  text-align: center
+
+.text-right
+  text-align: right
+
+.text-end
+  text-align: right
+
+/* MARGIN ALL */
+@for $i from 1 through 150
+  .m-#{$i}px
+    margin: #{$i}px !important
+/* MARGIN ALL */
+
+/* MARGIN TOP */
+@for $i from 1 through 150
+  .mt-#{$i}px
+    margin-top: #{$i}px !important
+/* MARGIN TOP */
+
+/* MARGIN BOTTOM */
+@for $i from 1 through 150
+  .mb-#{$i}px
+    margin-bottom: #{$i}px !important
+/* MARGIN BOTTOM */
+
+/* MARGIN LEFT */
+@for $i from 1 through 150
+  .ml-#{$i}px
+    margin-left: #{$i}px !important
+/* MARGIN TOP */
+
+/* MARGIN TOP */
+@for $i from 1 through 150
+  .mr-#{$i}px
+    margin-right: #{$i}px !important
+/* MARGIN TOP */
+
+/* PADDING ALL */
+@for $i from 1 through 150
+  .p-#{$i}px
+    padding: #{$i}px !important
+/* PADDING ALL */
+
+/* PADDING TOP */
+@for $i from 1 through 150
+  .pt-#{$i}px
+    padding-top: #{$i}px !important
+/* PADDING TOP */
+
+/* PADDING BOTTOM */
+@for $i from 1 through 150
+  .pb-#{$i}px
+    padding-bottom: #{$i}px !important
+/* PADDING BOTTOM */
+
+/* PADDING LEFT */
+@for $i from 1 through 150
+  .pl-#{$i}px
+    padding-left: #{$i}px !important
+/* PADDING TOP */
+
+/* PADDING TOP */
+@for $i from 1 through 150
+  .pr-#{$i}px
+    padding-right: #{$i}px !important
+/* PADDING TOP */
